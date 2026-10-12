@@ -198,7 +198,7 @@ The graphical interface is built using **Windows Forms** with an event-driven pr
 ## Project Structure
 
 ```
-Networked-ChessGame/
+Networked-ChessGame-Final/
 ├── board/                          # Chess game logic and UI
 │   ├── Program.cs                  # Application entry point
 │   ├── ChessUI.cs                  # Windows Forms board interface
@@ -233,8 +233,8 @@ Networked-ChessGame/
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/joelmccormack/Networked-ChessGame.git
-cd Networked-ChessGame
+git clone https://github.com/joelmccormack/Networked-ChessGame-Final.git
+cd Networked-ChessGame-Final
 ```
 
 **2. Build the solution:**
@@ -316,4 +316,3 @@ The separation of networking, game logic, and UI improves maintainability: each 
 ## Testing
 
 No automated unit tests are included in the repository. Testing is performed manually through gameplay in both local and networked modes.
-
